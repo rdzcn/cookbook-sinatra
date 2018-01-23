@@ -1,0 +1,12 @@
+
+<h1>
+  I am the index page!
+</h1>
+
+<%= Time.now %>
+
+<% @usernames.each do |username| %>
+  <li>
+    <%= username %>
+  </li>
+<% end %>
